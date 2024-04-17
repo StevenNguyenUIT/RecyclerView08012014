@@ -8,7 +8,7 @@
     android:weightSum="20">
 
     <ImageView
-        android:id="@+id/imgCinema"
+        android:id="@+id/image_view_cinema"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_gravity="top"
@@ -32,7 +32,7 @@
             android:weightSum="20">
 
             <TextView
-                android:id="@+id/txtName"
+                android:id="@+id/text_view_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="15"
@@ -51,13 +51,14 @@
                 android:weightSum="3">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
                     android:src="@drawable/icon_pin" />
 
                 <TextView
+                    android:textSize="7pt"
                     android:textColor="#4DA0FE"
-                    android:id="@+id/txtDistance"
+                    android:id="@+id/text_view_distance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="461 m" />
@@ -67,7 +68,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txtAddress"
+            android:id="@+id/text_view_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="5dp"
@@ -75,7 +76,7 @@
             tools:text="116 Nguyen Du, Quan 1, Tphcm" />
 
         <TextView
-            android:id="@+id/txtPhone"
+            android:id="@+id/text_view_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
